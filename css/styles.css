@@ -186,6 +186,7 @@ header{
     .hero-img{
         flex-basis: 50%;
         order: 2;
+        margin-bottom: 0;
     }
 }
 
