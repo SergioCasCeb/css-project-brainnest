@@ -153,6 +153,7 @@ header{
 
 .hero-info{
     order: 2;
+    margin-bottom: 4rem;
 }
 
 .hero-info > *{
