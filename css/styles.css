@@ -125,12 +125,15 @@ header{
 
 .nav-bar{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     padding: 1rem 0;
 }
 
+.main-nav{
+    margin: 2rem 0;
+}
 
 .main-nav a:not(:last-child){
     margin-right: 2rem;
@@ -138,6 +141,13 @@ header{
 
 .main-nav a:hover, .main-nav a:focus{
     color: #a1a1a1;
+}
+
+@media screen and (min-width: 768px) {
+    .nav-bar{
+        flex-direction: row;
+    }
+    
 }
 
 /* Hero */
