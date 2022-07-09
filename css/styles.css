@@ -168,8 +168,12 @@ header{
 @media screen and (min-width: 768px) {
     .nav-bar{
         flex-direction: row;
+        min-height: 10vh;
     }
     
+    .main-nav{
+        margin: 0;
+    }
 }
 
 /* Hero */
